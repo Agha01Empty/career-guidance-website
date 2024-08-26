@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>EMPTY - Career Guidance</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Welcome to EMPTY Career Guidance</h1>
+        <nav>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#careers">Career Options</a></li>
+                <li><a href="#consultation">Consultation</a></li>
+                <li><a href="#blog">Blog</a></li>
+                <li><a href="#about">About Us</a></li>
+                <li><a href="#contact">Contact Us</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section id="home">
+            <h2>Home</h2>
+            <p>Welcome to EMPTY, your guide to career success.</p>
+        </section>
+
+        <section id="careers">
+            <h2>Career Options</h2>
+            <div class="dropdown">
+                <button class="dropbtn">Select Career</button>
+                <div class="dropdown-content">
+                    <a href="#" onclick="showDetails('engineering')">Engineering</a>
+                    <a href="#" onclick="showDetails('medicine')">Medicine</a>
+                    <!-- Add more career options here -->
+                </div>
+            </div>
+            <div id="career-details">
+                <!-- Detailed information will be shown here -->
+            </div>
+        </section>
+
+        <!-- Add other sections like Consultation, Blog, About Us, Contact Us here -->
+    </main>
+
+    <footer>
+        <p>&copy; 2024 EMPTY Career Guidance. All rights reserved.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
